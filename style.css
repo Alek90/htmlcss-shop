@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+main{
+    margin: auto;
+}
 .clearfix{
     content: "";
     display: table;
@@ -23,4 +26,44 @@ img{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.badge{
+    z-index: 10;
+}
+
+.heart{
+    width: 48px;
+    height: 50px;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    right: 0;
+
+}
+
+.discount{
+    width: 47px;
+    height: 28px;
+    background-color: red;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+}
+
+.characteristic{
+    width: 95px;
+    height: 28px;
+    background-color: green;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 477px;
+    left: 51px;
 }
