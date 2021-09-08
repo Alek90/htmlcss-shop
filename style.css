@@ -8,7 +8,9 @@
 /* General */
 
 main{
-    margin: auto;
+    margin: 20px auto 0;
+    width: 1102px;
+    height: 1173px;
 }
 
 .clearfix{
@@ -17,12 +19,28 @@ main{
     clear: both;
 }
 
+aside{
+    float: left;
+}
+
+.central{
+    float: left;
+    margin: 0 10px;
+}
+
 aside .container{
     width: 361px;
+}
+
+.central .container{
+    width: 360px;
+}
+
+.container{
+    font-weight: bold;
     height: 521px;
-    float: left;
     position: relative;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 img{
@@ -33,6 +51,7 @@ img{
 }
 
 .heart{
+    font-size: xx-large;
     width: 48px;
     height: 50px;
     background-color: white;
@@ -79,11 +98,15 @@ img{
 }
 
 
+.brand{
+    font-weight: lighter;
+}
 
-span:first-child{
+
+span:nth-child(1){
     color: red;
     font-weight: bolder;
 }
-span:last-child{
+span:nth-child(2){
     text-decoration: line-through;
 }
