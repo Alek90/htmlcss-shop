@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 361px;
+    height: 521px;
+
+    float: left;
+    position: relative;
+}
+
+img{
+    width: 361px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
