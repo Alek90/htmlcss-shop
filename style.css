@@ -4,21 +4,25 @@
     padding: 0;
 }
 
+
+/* General */
+
 main{
     margin: auto;
 }
+
 .clearfix{
     content: "";
     display: table;
     clear: both;
 }
 
-.container{
+aside .container{
     width: 361px;
     height: 521px;
-
     float: left;
     position: relative;
+    margin-bottom: 7px;
 }
 
 img{
@@ -26,10 +30,6 @@ img{
     position: absolute;
     top: 0;
     left: 0;
-}
-
-.badge{
-    z-index: 10;
 }
 
 .heart{
@@ -66,4 +66,24 @@ img{
     position: absolute;
     top: 477px;
     left: 51px;
+}
+
+.container:hover .first{
+    opacity: 0;
+}
+
+.container:hover .second{
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+
+
+span:first-child{
+    color: red;
+    font-weight: bolder;
+}
+span:last-child{
+    text-decoration: line-through;
 }
