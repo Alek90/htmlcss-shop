@@ -59,9 +59,9 @@ img{
     text-align: center;
     position: absolute;
     top: 20px;
-    right: 0;
-
+    right: 0px;
 }
+
 
 .discount{
     width: 47px;
@@ -82,9 +82,18 @@ img{
     line-height: 28px;
     text-align: center;
     color: white;
+}
+
+.left .characteristic{
     position: absolute;
-    top: 477px;
+    bottom: 16px;
     left: 51px;
+}
+
+.right .characteristic{
+    position: absolute;
+    bottom: 16px;
+    left: 0px;
 }
 
 .container:hover .first{
@@ -107,6 +116,7 @@ span:nth-child(1){
     color: red;
     font-weight: bolder;
 }
+
 span:nth-child(2){
     text-decoration: line-through;
 }
