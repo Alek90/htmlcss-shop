@@ -44,10 +44,17 @@ aside .container{
 }
 
 img{
-    width: 361px;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+aside img{
+    width: 361px;
+}
+
+.central img{
+    width: 360px;
 }
 
 .heart{
